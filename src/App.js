@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css'; // Make sure this CSS file exists!
 
-const API_BASE_URL = 'http://localhost:8080'; // Your Spring Boot backend URL
+const API_BASE_URL = 'https://jobportalbackend-4.onrender.com'; // Your Spring Boot backend URL
 
 function App() {
   const [posts, setPosts] = useState([]);
